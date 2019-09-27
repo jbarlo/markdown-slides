@@ -106,7 +106,7 @@ class App extends Component {
         }}>
           <button>Upload PDF</button>
         </ReactFileReader>
-        <button onClick={this.relateSelected}>Henlo</button>
+        <button onClick={this.relateSelected}>Add Markdown</button>
         <textarea onInput={this.textAreaInput}></textarea>
         <img src={logo} className="App-logo" alt="logo" />
         <MarkdownSelector input={this.state.markdownText} onSelection={this.onMarkdownSelectionChange} down={this.state.markdownDownSelected} up={this.state.markdownUpSelected}/>

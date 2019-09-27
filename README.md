@@ -1,4 +1,4 @@
-A small project to practice React. Combine markdown text with PDF slides to generate different "views".
+A small WIP project to practice React. Combine markdown text with PDF slides to generate different "views".
 
 ### Instructions
 
