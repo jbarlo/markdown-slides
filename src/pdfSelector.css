@@ -1,0 +1,7 @@
+.App-pdfSelector > canvas {
+    display: initial !important;
+  }
+
+.App-pdfSelector.selected {
+    background-color: red
+}

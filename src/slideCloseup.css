@@ -1,0 +1,9 @@
+.slideCloseupDiv canvas {
+    -webkit-transition: width 1s, height 1s;
+    transition: width 1s, height 1s;
+    width: 700px !important; /* Needed to override prop-based styling */
+}
+
+.slideCloseupDiv.big canvas {
+    width: 1400px !important; /* Needed to override prop-based styling */
+}
